@@ -56,7 +56,11 @@ body{
 	justify-content: center;
 	background-color: #232331;
 	padding-left: 90px;
-
+}
+.mobail-menu{
+	width: 25px;
+	height: 25px;
+	display: none;
 }
 .logo-menu{
 	display: flex;
@@ -64,10 +68,12 @@ body{
 	color: #fff;
 	font-size: 16px;
 	font-weight: 700;
+	width: 900px;
 }
 .logo-menu a{
 	text-decoration: none;
 	color: #fff;
+	padding-left: 20px;
 }
 .gmail{
 	background-color: #D60B51;
@@ -75,8 +81,9 @@ body{
 	color: #fff;
 	padding-left: 42px;
 	padding-top: 44px;
-	padding-right: 491px;
+	padding-right: 130px;
 	padding-bottom: 32px;
+	width: 400px;
 }
 .gmail p{
 	font-size: 24px;
@@ -114,6 +121,7 @@ body{
 	align-items: center;
 	padding-top: 101px;
 	grid-column-gap: 207px;
+	justify-content: center;	
 }
 .catalog1 p{
 	color: #D60B51;
@@ -200,6 +208,14 @@ body{
 }
 .worcs-namber{
 	text-align: center;
+}
+.worcs-namber1{
+	text-align: center;
+	padding-top: 15px;
+}
+.worcs-namber1 p{
+	color: #fff;
+	font-size: 18px;
 }
 .using{
 	display: flex;
@@ -334,8 +350,341 @@ body{
 }
 .text-end{
 	justify-content: center;
-	display: flex;
+	display:grid;
 	padding-top: 21px;
 	font-size: 27px;
 	font-weight: 400;
+}
+#menu-db{
+	position: absolute;
+	list-style-type: none;
+	left: 0px;
+	top: 0px;
+	background-color:#000;
+	padding: 25px;
+	border-radius: 5px;
+}
+#menu-db li{
+	font-size: 25px;
+	color: #fff;
+	font-weight: 700;
+	padding-top: 25px;
+}
+#menu-db a{
+	color: #fff;
+}
+.d-n{
+	display:none;
+}
+header{
+	position: fixed;
+}
+
+
+
+
+
+
+@media screen and (max-width:1822px ) {
+	.info{
+		width: 100%;
+	}
+}
+@media screen and (max-width:1786px ) {
+	.info{
+		width: 1810px;
+	}
+	.worcs{
+		width: 1810px;
+	}
+	.using{
+		width: 1810px;
+	}
+}
+@media screen and (max-width:1684px ) {
+	.customers{
+		padding-left: 90px;
+	}
+	.logo4{
+		padding-left: 90px;
+	}
+	.becend{
+		padding-left: 90px;
+	}
+	.text-end{
+		padding-left: 90px;
+	}
+}
+@media screen and (max-width:1602px ) {
+	.customers{
+		padding-left: 150px;
+	}
+	.logo4{
+		padding-left: 150px;
+	}
+	.becend{
+		padding-left: 150px;
+	}
+	.text-end{
+		padding-left: 150px;
+	}
+}
+@media screen and (max-width:1572px ) {
+	.customers{
+		padding-left: 170px;
+	}
+	.logo4{
+		padding-left: 170px;
+	}
+	.becend{
+		padding-left: 170px;
+	}
+	.text-end{
+		padding-left: 150px;
+	}
+	.becend-text{
+		width: 900px;
+	}
+}
+@media screen and (max-width:1520px ) {
+	.customers{
+		padding-left: 210px;
+	}
+	.logo4{
+		padding-left: 210px;
+	}
+	.becend{
+		padding-left: 210px;
+	}
+	.text-end{
+		padding-left: 210px;
+	}
+	.becend-text{
+		width: 900px;
+	}
+}
+@media screen and (max-width:1454px ) {
+	.customers{
+		padding-left: 280px;
+	}
+	.logo4{
+		padding-left: 280px;
+	}
+	.becend{
+		padding-left: 280px;
+	}
+	.text-end{
+		padding-left: 280px;
+	}
+}
+@media screen and (max-width:1336px ) {
+	.customers{
+		padding-left: 400px;
+	}
+	.logo4{
+		padding-left: 400px;
+	}
+	.becend{
+		padding-left: 400px;
+	}
+	.text-end{
+		padding-left: 400px;
+	}
+}
+@media screen and (max-width:1336px ) {
+	.customers{
+		padding-left: 600px;
+	}
+	.logo4{
+		padding-left: 600px;
+	}
+	.becend{
+		padding-left: 600px;
+	}
+	.text-end{
+		padding-left: 600px;
+	}
+	.customers h2{
+		padding-left: 280px;
+	}
+}
+@media screen and (max-width:1208px ) {
+	.About-us{
+		padding-left: 290px;
+	}
+}
+@media screen and (max-width:1209px ) {
+	.About-us{
+		width: 1600px;
+	}
+}
+@media screen and (max-width:1207px ) {
+	.About-us{
+		width: 1000px;
+	}
+}
+@media screen and (max-width:1085px ) {
+	.customers{
+		padding-left: 700px;
+	}
+	.logo4{
+		padding-left: 700px;
+	}
+	.becend{
+		padding-left: 700px;
+	}
+	.text-end{
+		padding-left: 700px;
+	}
+}
+@media screen and (max-width: 900px) {
+	.logo-png{
+		display: none;
+	}
+	.mobail-menu{
+		display: block;
+		padding-right: 90px;
+		width: 40px;
+		height: 40px;
+	}
+	.logo-menu{
+		display: none;
+	}
+	.logo{
+		width: 100%;
+	}
+	header{
+		width: 100%;
+	}
+	.logo-menu{
+	    position: fixed;
+	    top: 20%;
+	    left: 50%;
+	    padding: 20px;
+	    width: 360px;
+	    margin-left: -200px;	
+	    background: #fff;
+	    border: 1px solid orange;
+	    border-radius: 4px; 
+	    z-index: 99999;
+	    opacity: 1;	
+	}
+	.menu-close{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
+@media screen and (max-width: 905px) {
+	.customers{
+		padding-left: 800px;
+	}
+	.logo4{
+		padding-left: 900px;
+	}
+	.becend{
+		padding-left: 900px;
+	}
+	.text-end{
+		padding-left: 900px;
+	}
+}
+@media screen and (max-width: 832px) {
+	.customers{
+		padding-left: 900px;
+	}
+}
+@media screen and (max-width: 660px) {
+	.worcs-text{
+		font-size: 60px;
+	}
+	.worcs-namber img{
+		width: 78px;
+	}
+	.worcs-namber p{
+		font-size: 40px;
+	}
+	.worcs-namber1 p{
+		font-size: 40px;
+		padding-top: 15px;
+	}
+	.worcs-namber1 img{
+		width: 78px;
+	}
+	.worcs-info{
+		padding-left: 50px;
+	}
+	.customers-namber p{
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.customers-namber h1{
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.customers h2{
+		padding-left: 400px;
+	}
+	.text-end{
+		font-size: 30px;
+		font-weight: 700;
+	}
+	.About-us-text h1{
+		font-weight: 700;
+	}
+}
+@media screen and (max-width: 550px) {
+
+}
+@media screen and (max-width: 505px) {
+	.mobail-menu{
+		width: 90px;
+		height: 90px;
+		left: 90px;
+		padding-left: 50px;
+	}
+	#menu-db li{
+		font-size: 60px;
+	}
+	.gmail p{
+		font-size: 40px;
+	}
+	.gmail a{
+		font-size: 40px;
+	}
+	.info{
+		padding-top: 300px;
+	}
+	.info p{
+		font-size: 100px;
+	}
+	.info h1{
+		font-size: 40px;
+	}
+	.using-text p{
+		font-size: 40px;
+		line-height: 30px;
+	}
+	.using-text h1{
+		font-size: 60px;
+		line-height: 45px;
+	}
+	.customers{
+		padding-top: 200px;
+	}
+}
+@media screen and (max-width: 438px) {
+	.catalog{
+		display: flex;
+	}
+	.About-us-img{
+		display: none;
+	}
+	.About-us-text p{
+		font-size: 90px;
+	}
+	.About-us-text h1{
+		font-size: 60px;
+		line-height: 60px;
+	}
 }
