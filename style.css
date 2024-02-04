@@ -673,18 +673,269 @@ header{
 		padding-top: 200px;
 	}
 }
-@media screen and (max-width: 438px) {
+@media screen and (max-width: 390px) {
+	.mobail-menu{
+		padding-left: 0;
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 15px;
+		top: 15px;
+		z-index:1;
+	}
+	#menu-db li{
+		font-size: 15px;
+	}
+	.gmail p{
+		font-size: 12px;
+	}
+	.gmail a{
+		font-size: 15px;
+	}
+	.gmail{
+		margin-left: 0;
+		left: 0;
+		padding-top: 19px;
+		padding-bottom: 19px;
+		width: 128px;
+	}
+	.logo{
+		justify-content: flex-end;
+		display: block;
+		width: 100px;
+	}
+	.info p{
+		font-size: 12px;
+	}
+	.info h1{
+		display: none;
+	}
+	.info{
+		width: 390px;
+		height: 90px;
+		padding-bottom: 120px;
+		padding-top: 90px;
+		justify-content: flex-end;
+		display: block;
+	}
+	.info p{
+		font-size: 32px;
+	}
+	.catalog img{
+		height: 35px;
+		width: 35px;
+	}
 	.catalog{
+		grid-column-gap: 45px;
+		padding-left: 0;
+		padding: 0;
+		padding-top: 53px;
+	}
+	.catalog1 p{
+		font-size: 45px;
+	}
+	.catalog1 h1{
+		display: block;
+		font-size: 12px;
+	}
+	.catalog2{
+		padding-top: 0;
+	}
+	.catalog2 h1{
+		display: block;
+		font-size: 12px;
+	}
+	.About-us{
+		width: 349px;
+		padding-left: 20px;
+		justify-content: flex-end;
+		padding-top: 22px;
+	}
+	.About-us-text{
+		padding-right: 0;
+	}
+	.About-us img{
+		display: none;
+	}
+	.worcs{
+		width: 390px;
+		font-size: 22px;
+		margin-top: 20px;
+		padding-bottom: 150px;
+	}
+	.worcs-text{
+		font-size: 22px;
+		padding-top: 40px;
+	}
+	.worcs-info{
+		padding-left: 0;
+		display: block;
+		padding:0;
+	}
+	.worcs-namber p{
+		font-size: 32px;
+	}
+	.worcs-namber{
+		padding-top: 45px;
+	}
+	.worcs-namber1{
+		padding-top: 40px;
+	}
+	.worcs-namber1 p{
+		font-size: 32px;
+	}
+	.customers{
+		justify-content: flex-end;
+		padding-top: 25px;
+		padding-left:0px;
+		margin-left: 0;
+		padding-right: 90px;
+	}
+	.customers h2{
+		padding-left: 250px;
+		padding-top: 0;
+	}
+	.customers-logo{
+		display: block;
+		padding: 0;
+		margin-left: 0;
+	}
+	.customers h2{
+		padding-left: 0px;
+	}
+	.customers-namber h1{
+		font-size: 12px;
+	}
+	.customers-namber p{
+		font-size: 12px;
+		padding-top: 10px;
+	}
+	.customers-namber{
+		padding-top: 50px;
+	}
+	.using{
+		justify-content: flex-end;
+		font-size: 12px;
+		margin-top: 800px;
+		width: 390px;
+	}
+	.logo4{
+		justify-content: flex-end;
+		display: block;
+		padding-left: 0;
+	}
+	.using{
+		margin-top: 1400px;
+		display: block;
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+	.a2{
+		margin-top: 30px;
+	}
+	.a1{
+		margin-top: 30px;
+	}
+	.becend-text{
+		width: 390px;
+		padding: 0;
+		padding-left: 20px;
+	}
+	.using-text p{
+		font-size: 22px;
+		padding-left: 15px;
+	}
+	.using-text h1{
+		font-size: 19px;
+		padding-left: 9px;
+	}
+	.using-btn{
+		padding-left: 0;
 		display: flex;
+		margin-left: 9px;
+		display:block;
+	}
+	.btn1{
+		margin-top: 15px;
+	}
+	.btn1{
+		padding-right: 90px;
+		width: 100px;
+	}
+	.using-batton{
+		width: 200px;
+		margin-top: 15px;
+		margin-left: 40px;
+	}
+	.becend{
+		padding-left: 0;
+		display: block;
+	}
+	.gps{
+		width: 390px;
+		padding-top: 15px;
+	}
+	.gps img{
+		width: 390px;
+	}
+	.becend{
+		margin-top: 390px;
+	}
+	.becend-text p{
+		padding-left: 95px;
+		padding-top: 15px;
+	}
+	.becend-text{
+		padding-left: 5px;
+	}
+	.text-end{
+		padding-left: 0;
+		width: 390px;
 	}
 	.About-us-img{
 		display: none;
 	}
-	.About-us-text p{
-		font-size: 90px;
+	.btton a{
+		color: #000;
+		font-size: 22px;
 	}
-	.About-us-text h1{
-		font-size: 60px;
-		line-height: 60px;
+	.DT{
+		display: none;
+	}
+	header{
+		width: 390px;
+		position:fixed;
+	}
+}
+@media screen and (max-width: 375px) {
+	header{
+		width: 375px;
+	}
+	.text-end{
+		width: 375px;
+	}
+	.becend{
+		width: 375px;
+	}
+	.becend-text{
+		width: 375px;
+	}
+	.using{
+		width: 375px;
+	}
+	.worcs{
+		width: 375px;
+	}
+	.catalog{
+		grid-column-gap: 10px;
+	}
+	.gps img{
+		width: 375px;
+	}
+	.info{
+		width: 375px;
+	}
+	.gmail{
+		padding-right:115px;
 	}
 }
